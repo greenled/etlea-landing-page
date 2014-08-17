@@ -1,0 +1,19 @@
+<ul class="nav nav-pills pull-right">
+	<li{% if page.slug == "index" %} class="active"{% endif %}>
+		<a href="#"><span class="glyphicon glyphicon-home"></span> Inicio</a>
+	</li>
+
+	<li{% if page.slug == "about" %} class="active"{% endif %}>
+		<a href="#"><span class="glyphicon glyphicon-info-sign"></span> Que es ETLEA</a>
+	</li>
+
+	{% if site.categories.blog.size >= 1 %}
+	<li{% if page.slug == "blog" %} class="active"{% endif %}>
+		<a href="#"><span class="glyphicon glyphicon-road"></span> Noticias</a>
+	</li>
+	{% endif %}
+
+	<li{% if page.slug == "contact" %} class="active"{% endif %}>
+		<a href="#"><span class="glyphicon glyphicon-envelope"></span> Contactenos</a>
+	</li>
+</ul>
