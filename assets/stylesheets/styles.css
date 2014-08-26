@@ -1,3 +1,52 @@
 .container, .content {
   margin: 20px 0;
 }
+
+body {
+	background-color: #512121;
+	/*background-image: url(../images/page.png);*/
+	background-repeat: repeat-x;
+	color: #EBB7A5;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+a, h2 {
+    color: #E35441;
+}
+
+a:hover {
+	color:#ffffff;
+}
+
+h1, h3,
+.nav > li > a,
+.nav > li > a:hover,
+.nav > li > a:focus {
+	color: #FFA579;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	color: #FFA579;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.page-header {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.15);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+blockquote {
+	color: #9E6552;
+	border-left: 5px solid rgba(255, 255, 255, 0.3);
+}
