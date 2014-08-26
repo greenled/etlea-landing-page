@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: page
 title: Que es ETLEA
 slug: about
 ---
-<div class="page-header">
-  <h1>Que es ETLEA</h1>
-</div>
-
 <div class="alert alert-success">
 	<strong>Well done!</strong> You successfully read this important alert message.
 </div>
