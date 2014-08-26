@@ -3,4 +3,4 @@ permalink:        pretty
 baseurl:          /etlea-landing-page
 
 # Server
-exclude:          [.gitignore]
+exclude:          [.gitignore, README.md]
