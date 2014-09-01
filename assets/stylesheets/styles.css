@@ -35,6 +35,11 @@ a, h1, h2, h3,
 	border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
+.page-header a:hover,
+.page-header a:focus, {
+	text-decoration: none;
+}
+
 .jumbotron {
 	background-color: rgba(0, 0, 0, 0.15);
 	border: 1px solid rgba(255, 255, 255, 0.1);
