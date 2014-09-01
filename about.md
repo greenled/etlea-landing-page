@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Que es ETLEA
+title: Qué es ETLEA
 slug: about
 ---
 <div class="alert alert-success">

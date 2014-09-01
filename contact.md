@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contactenos
+title: Contáctenos
 slug: contact
 ---
 consecteur ad discipling
