@@ -1,0 +1,6 @@
+# Permalinks
+permalink:        pretty
+baseurl:          /etlea-landing-page
+
+# Server
+exclude:          [.gitignore, README.md]

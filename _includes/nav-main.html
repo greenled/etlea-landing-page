@@ -1,0 +1,23 @@
+<div class="col-sm-3">
+</div>
+<div class="col-sm-9">
+<ul class="nav nav-pills pull-right">
+	<li{% if page.slug == "index" %} class="active"{% endif %}>
+		<a href="{{ site.baseurl }}/">Inicio</a>
+	</li>
+
+	<li{% if page.slug == "about" %} class="active"{% endif %}>
+		<a href="{{ site.baseurl }}/about">Que es ETLEA</a>
+	</li>
+
+	{% if site.categories.news.size >= 1 %}
+	<li{% if page.slug == "blog" %} class="active"{% endif %}>
+		<a href="{{ site.baseurl }}/news">Noticias</a>
+	</li>
+	{% endif %}
+
+	<li{% if page.slug == "contact" %} class="active"{% endif %}>
+		<a href="{{ site.baseurl }}/contact">Contactenos</a>
+	</li>
+</ul>
+</div>
